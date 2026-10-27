@@ -13,7 +13,7 @@ reproduce the analyses, figures, and tables presented in the manuscript.
 The general null-model workflow used to generate the beta-diversity
 metrics is available in the companion repository:
 
-[Beta diversity null-model workflow](https://anonymous.4open.science/r/beta_null_hpc-6490/README.md)
+[Beta diversity null-model workflow](https://github.com/williamkannis/beta_null_hpc.git)
 
 For questions about this data set or analysis, please contact:
 
@@ -62,16 +62,16 @@ independent reproduction of the effect-size calculations and all downstream
 manuscript analyses. Additionally we provide code for community and trait data
 preparation [here](#diversity-input-data), and the beta diversity null modelling 
 workflow used in this manuscript can be found 
-[here](https://anonymous.4open.science/r/beta_null_hpc-6490/README.md).
+[here](https://github.com/williamkannis/beta_null_hpc.git).
 
 # Data
 
 The data below can be found at the manuscript's 
-[Zenodo repository](https://doi.org/10.5281/zenodo.16949657):
+[Zenodo repository](https://doi.org/10.5281/zenodo.21987340):
 
 ### Observed diversity data
 Observed alpha and beta diversity data can be downloaded from ```obs_out.zip``` 
-at the [Zenodo repository](https://doi.org/10.5281/zenodo.16949657) and unzipped into ```HPC_data/``` directory. 
+at the [Zenodo repository](https://doi.org/10.5281/zenodo.21987340) and unzipped into ```HPC_data/``` directory. 
 These data are used to estimate null model empirical effect sizes, used in 
 analyses, and used for summary statistics. 
 
@@ -79,7 +79,7 @@ analyses, and used for summary statistics.
 
 ### Null diversity iterations
 The raw null model iteration data for beta and alpha diversity can be downloaded 
-from ```null_out.zip``` at the [Zenodo repository](https://doi.org/10.5281/zenodo.16949657) and unzipped into 
+from ```null_out.zip``` at the [Zenodo repository](https://doi.org/10.5281/zenodo.21987340) and unzipped into 
 the ```HPC_data/``` directory. These data are the result of the randomization of 
 traits and phylogenies (beta) or randomization of communities (alpha). These 
 data will be compiled and used to create null distributions used to create null 
@@ -89,7 +89,7 @@ model standardized diversity values.
 
 ### Summarized null model outputs
 The summarized null model analyses results for all diversity metrics can be 
-downloaded from ```ses_out.zip``` at the [Zenodo repository](https://doi.org/10.5281/zenodo.16949657) 
+downloaded from ```ses_out.zip``` at the [Zenodo repository](https://doi.org/10.5281/zenodo.21987340) 
 and unzipped into the ```HPC_data/``` directory. These data contain effect sizes,
 can be used to evaluate the properties of the null distributions to choose 
 between standardized effect  sizes and empirical effect sizes, and can be 
@@ -101,7 +101,7 @@ analyses.
 ### Delta lcbd effects sizes
 The combined observed and effect size data for delta LCBD can be downloaded 
 from ```delta_lcbd.rds``` at the 
-[Zenodo repository](https://doi.org/10.5281/zenodo.16949657) and unzipped 
+[Zenodo repository](https://doi.org/10.5281/zenodo.21987340) and unzipped 
 into the ```Analysis_data/``` directory. These data can be used to replicate
 clustering analysis in ```02_cluster_analysis.R```.
 
@@ -113,7 +113,7 @@ We summarized the native and nonnative species richness across communities for e
 syndrome. We used the raw community data to estimate the total species 
 richness, native species richness, and the richness of nonnative species. 
 These data can be downloaded from ```com_invaded.rds``` at the 
-[Zenodo repository](https://doi.org/10.5281/zenodo.16949657) and unzipped 
+[Zenodo repository](https://doi.org/10.5281/zenodo.21987340) and unzipped 
 into ```Analysis_data/```.
 
 **Required** for both route 1 and route 2 to recreate figure 6.
@@ -121,7 +121,7 @@ into ```Analysis_data/```.
 
 ## File directories
 Download the entire repository. Then download required data from 
-[Zenodo Repository](https://doi.org/10.5281/zenodo.16949657), and data sources listed 
+[Zenodo Repository](https://doi.org/10.5281/zenodo.21987340), and data sources listed 
 [here](#publically-available-data), and unzip into the following 
 file structure:
 
@@ -143,7 +143,7 @@ file structure:
 (*) directories or files downloaded from Zenodo
 ```
 
-<ins>NOTE:</ins> When downloading data from the [Zenodo repository](https://doi.org/10.5281/zenodo.16949657), the .zip 
+<ins>NOTE:</ins> When downloading data from the [Zenodo repository](https://doi.org/10.5281/zenodo.21987340), the .zip 
 files will create duplicate folders. It is recommended to download all data 
 before creating new file structures.
 
@@ -266,7 +266,7 @@ for aesthetic purposes, and we included Illustrator files as well.
 # Diversity Input Data
 We are not able to publicly provide all the data necessary to replicate the 
 multidimensional diversity data estimated using the 
-[HPC null model workflow](https://anonymous.4open.science/r/beta_null_hpc-6490/README.md). 
+[HPC null model workflow](https://github.com/williamkannis/beta_null_hpc.git). 
 We do, however, provide the code used to prepare said data and can offer
 data upon completed data requests. See below for more information.
 
