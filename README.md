@@ -26,11 +26,12 @@ If you use this code or data, please cite:
 
 >Annis, W.K., Thompson, L.M., Bower, L.M., Midway, S.M., Olden, J.D., Peoples, 
 B.K. (2026). Syndromes of multidimensional beta diversity change in 
-invaded metacommunities. Neobiota. in review
+invaded metacommunities. Neobiota
 
 >Annis, W.K., Thompson, L.M., Bower, L.M., Midway, S.M., Olden, J.D., Peoples, 
-B.K. (2026). Data for Syndromes of multidimensional beta diversity 
-change in invaded metacommunities.[citation / DOI]
+B.K. (2026). Data for "Syndromes of multidimensional beta diversity 
+change in invaded metacommunities" (Version v1.0.0).[Dataset]. 
+Zenodo. https://doi.org/10.5281/zenodo.23771748
 
 and if you adapt the null model workflow:
 
@@ -68,11 +69,12 @@ workflow used in this manuscript can be found
 # Data
 
 The data below can be found at the manuscript's 
-[Zenodo repository](https://doi.org/10.5281/zenodo.21987340):
+Zenodo repository:
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23771748.svg)](https://doi.org/10.5281/zenodo.23771748)
 
 ### Observed diversity data
 Observed alpha and beta diversity data can be downloaded from ```obs_out.zip``` 
-at the [Zenodo repository](https://doi.org/10.5281/zenodo.21987340) and unzipped into ```HPC_data/``` directory. 
+at the [Zenodo repository](https://doi.org/10.5281/zenodo.23771748) and unzipped into ```HPC_data/``` directory. 
 These data are used to estimate null model empirical effect sizes, used in 
 analyses, and used for summary statistics. 
 
@@ -80,7 +82,7 @@ analyses, and used for summary statistics.
 
 ### Null diversity iterations
 The raw null model iteration data for beta and alpha diversity can be downloaded 
-from ```null_out.zip``` at the [Zenodo repository](https://doi.org/10.5281/zenodo.21987340) and unzipped into 
+from ```null_out.zip``` at the [Zenodo repository](https://doi.org/10.5281/zenodo.23771748) and unzipped into 
 the ```HPC_data/``` directory. These data are the result of the randomization of 
 traits and phylogenies (beta) or randomization of communities (alpha). These 
 data will be compiled and used to create null distributions used to create null 
@@ -90,7 +92,7 @@ model standardized diversity values.
 
 ### Summarized null model outputs
 The summarized null model analyses results for all diversity metrics can be 
-downloaded from ```ses_out.zip``` at the [Zenodo repository](https://doi.org/10.5281/zenodo.21987340) 
+downloaded from ```ses_out.zip``` at the [Zenodo repository](https://doi.org/10.5281/zenodo.23771748) 
 and unzipped into the ```HPC_data/``` directory. These data contain effect sizes,
 can be used to evaluate the properties of the null distributions to choose 
 between standardized effect  sizes and empirical effect sizes, and can be 
@@ -102,7 +104,7 @@ analyses.
 ### Delta lcbd effects sizes
 The combined observed and effect size data for delta LCBD can be downloaded 
 from ```delta_lcbd.rds``` at the 
-[Zenodo repository](https://doi.org/10.5281/zenodo.21987340) and unzipped 
+[Zenodo repository](https://doi.org/10.5281/zenodo.23771748) and unzipped 
 into the ```Analysis_data/``` directory. These data can be used to replicate
 clustering analysis in ```02_cluster_analysis.R```.
 
@@ -114,7 +116,7 @@ We summarized the native and nonnative species richness across communities for e
 syndrome. We used the raw community data to estimate the total species 
 richness, native species richness, and the richness of nonnative species. 
 These data can be downloaded from ```com_invaded.rds``` at the 
-[Zenodo repository](https://doi.org/10.5281/zenodo.21987340) and unzipped 
+[Zenodo repository](https://doi.org/10.5281/zenodo.23771748) and unzipped 
 into ```Analysis_data/```.
 
 **Required** for both route 1 and route 2 to recreate figure 6.
@@ -122,7 +124,7 @@ into ```Analysis_data/```.
 
 ## File directories
 Download the entire repository. Then download required data from 
-[Zenodo Repository](https://doi.org/10.5281/zenodo.21987340), and data sources listed 
+[Zenodo Repository](https://doi.org/10.5281/zenodo.23771748), and data sources listed 
 [here](#publically-available-data), and unzip into the following 
 file structure:
 
@@ -144,7 +146,7 @@ file structure:
 (*) directories or files downloaded from Zenodo
 ```
 
-<ins>NOTE:</ins> When downloading data from the [Zenodo repository](https://doi.org/10.5281/zenodo.21987340), the .zip 
+<ins>NOTE:</ins> When downloading data from the [Zenodo repository](https://doi.org/10.5281/zenodo.23771748), the .zip 
 files will create duplicate folders. It is recommended to download all data 
 before creating new file structures.
 
