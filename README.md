@@ -1,6 +1,4 @@
-# Source code for *Syndromes of multifaceted beta diversity change in invaded metacommunities*
-
-# Anonymous peer review version
+# Source code for *Syndromes of multidimensional beta diversity change in invaded metacommunities*
 
 Code and data for reproducing the analyses presented in:
 
@@ -13,7 +11,7 @@ reproduce the analyses, figures, and tables presented in the manuscript.
 The general null-model workflow used to generate the beta-diversity
 metrics is available in the companion repository:
 
-[Beta diversity null-model workflow](https://github.com/williamkannis/beta_null_hpc.git)
+[Beta diversity null-model workflow](https://doi.org/10.5281/zenodo.22101306)
 
 For questions about this data set or analysis, please contact:
 
@@ -27,16 +25,20 @@ OrcID: 0009-0003-3541-8503
 
 If you use this code or data, please cite:
 
->BLANK. Syndromes of multidimensional beta diversity change in 
-invaded metacommunities. in review
+>Annis, W.K., Thompson, L.M., Bower, L.M., Midway, S.M., Olden, J.D., Peoples, 
+B.K. (2026). Syndromes of multidimensional beta diversity change in 
+invaded metacommunities. Neobiota. in review
 
->BLANK. Data and code for Syndromes of multidimensional beta diversity change in 
-invaded metacommunities.[citation / DOI]
+>Annis, W.K., Thompson, L.M., Bower, L.M., Midway, S.M., Olden, J.D., Peoples, 
+B.K. (2026). Data and code for Syndromes of multidimensional beta diversity 
+change in invaded metacommunities.[citation / DOI]
 
 and if you adapt the null model workflow:
 
->BLANK. Beta diversity change null modelling workflow for Slurm-based high 
->performance computer (HPC) clusters. [Workflow citation / DOI]
+> Annis, W.K., Thompson, L.M., Bower, L.M., Midway, S.M., Olden, J.D., Peoples, 
+B.K. (2026). Beta diversity change null modelling workflow for Slurm-based high 
+performance computer (HPC) clusters (Version v1.0.0) [Computer software]. 
+Zenodo. https://doi.org/10.5281/zenodo.22101306
 
 
 # Overview
@@ -62,7 +64,7 @@ independent reproduction of the effect-size calculations and all downstream
 manuscript analyses. Additionally we provide code for community and trait data
 preparation [here](#diversity-input-data), and the beta diversity null modelling 
 workflow used in this manuscript can be found 
-[here](https://github.com/williamkannis/beta_null_hpc.git).
+[here](https://doi.org/10.5281/zenodo.22101306).
 
 # Data
 
@@ -291,4 +293,12 @@ analysis ```filtered_species_list.csv```.
 These scripts and data can be found in the ```Diversity Input Data``` directory.
 
 The phylogenetic tree used for multidimensional diversity metrics, and 
-information on its methodology can be found [here](https://anonymous.4open.science/r/fishscales_super_tree-01FC/README.md).
+information on its methodology can be found [here](https://doi.org/10.5281/zenodo.22100238).
+
+## License
+
+The code in this repository is licensed under the
+[MIT License](LICENSE).
+
+Associated data are released under
+a [Creative Commons Attribution 4.0 International License (CC BY 4.0)].
