@@ -1,4 +1,4 @@
-# Source code for *Syndromes of multidimensional beta diversity change in invaded metacommunities*
+# Source code for *Syndromes of multidimensional beta diversity change in invaded metacommunities* [![DOI](https://zenodo.org/badge/1265434282.svg)](https://doi.org/10.5281/zenodo.23773200)
 
 Code and data for reproducing the analyses presented in:
 
