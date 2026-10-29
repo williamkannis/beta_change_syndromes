@@ -244,7 +244,7 @@ summarizing raw and effect size beta diversity values.
 ### 2. Perform clustering analysis to identify syndromes
 **Script:** ```02_cluster_analysis.R```
 
-<ins>Purpose:</ins> Performs model based clustering to identify invasion 
+<ins>Purpose:</ins> Performs model based clustering to identify beta diversity change 
 syndromes based on shared changes in multidimensional LCBD effect sizes. Filters
 sites so only those with at least one dimension with a significant change are
 included in cluster analyses. Creates summary tables and plots.
