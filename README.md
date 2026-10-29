@@ -2,8 +2,7 @@
 
 Code and data for reproducing the analyses presented in:
 
-> Author et al. (YEAR). Syndromes of multidimensional beta diversity change in
-invaded metacommunities.[Journal, DOI]
+> Syndromes of multidimensional beta diversity change in invaded metacommunities. *NeoBiota*
 
 This repository contains the R code and data products required to
 reproduce the analyses, figures, and tables presented in the manuscript.
@@ -30,7 +29,7 @@ B.K. (2026). Syndromes of multidimensional beta diversity change in
 invaded metacommunities. Neobiota. in review
 
 >Annis, W.K., Thompson, L.M., Bower, L.M., Midway, S.M., Olden, J.D., Peoples, 
-B.K. (2026). Data and code for Syndromes of multidimensional beta diversity 
+B.K. (2026). Data for Syndromes of multidimensional beta diversity 
 change in invaded metacommunities.[citation / DOI]
 
 and if you adapt the null model workflow:
